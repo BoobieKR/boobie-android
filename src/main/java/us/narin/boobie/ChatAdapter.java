@@ -55,6 +55,5 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
             if (null == messageContent) return;
             messageContent.setText(message);
         }
-
     }
 }
